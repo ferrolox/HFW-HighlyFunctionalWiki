@@ -10,6 +10,7 @@ import org.junit.jupiter.api.*;
 class AccountTypeConverterTest
 {
     private AccountTypeConverter converter;
+
     @BeforeEach
     void Setup()
     {

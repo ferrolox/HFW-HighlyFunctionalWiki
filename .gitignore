@@ -17,3 +17,5 @@ target/
 build/
 dist/
 coverage/
+
+workspace.xml

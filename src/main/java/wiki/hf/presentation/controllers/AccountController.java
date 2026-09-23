@@ -32,10 +32,12 @@ public class AccountController {
                                        : ResponseEntity.ok(accountResult);
     }
 
+    /* TODO: Fix
     @GetMapping("/{username}/{password}")
     public HttpEntity<AccountResult> checkAccount(@PathVariable String username, @PathVariable String password) {
         return ResponseEntity.ok(new AccountResult(service.findByUsernameAndPassword(username, password)));
     }
+     */
 
     @PutMapping("/update")
     public HttpEntity<AccountResult> putAccount(@RequestBody AccountRequest accountRequest) {
